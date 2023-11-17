@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DENIS JOASH JOSEPHAT - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom right, #001f3f, #0074cc, #ffffff);
+      color: #ffffff;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+
+    h1, h2 {
+      margin: 0;
+    }
+
+    img {
+      width: 150px; /* Adjust the width as needed */
+      height: 130px;
+      border-radius: 75px; /* Make it a perfect circle */
+      float: left;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .container {
+      max-width: 250px;
+      margin: 0 auto;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .skill {
+      margin: 5px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    footer {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1></h1>
+    <h2>Front End Web Development | UI/UX Design | Graphic Design</h2>
+    <img src="C:\Users\Masalu Jr\dejong.jpg.jpg" alt="denis josephat">
+  </header>
+
+  <section>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Background:
+        I am DENIS JOASH JOSEPHAT ,come from a diverse background with a passion for ICT. Over the years, I have honed my skills in Web development,ux/ui design and graphic design,
+        I am continually seeking new ways to grow and evolve.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Education</h2>
+      <p>I hold a Diploma in ICT from DIT, where I developed a strong foundation in WEBDEVELOPMENT. This academic journey not only equipped me with valuable knowledge but also fostered a mindset of curiosity and a commitment to lifelong learning..</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">Front End Web Development</div>
+        <div class="skill">UI/UX Design</div>
+        <div class="skill">Graphic Design</div>
+        <!-- Add more skills as needed -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: dejong031@gmail.com | LinkedIn: linkedin.com/in/denisdejong</p>
+  </footer>
+
+</body>
+</html>
